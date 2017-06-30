@@ -27,7 +27,8 @@ set simple_tests=^
 	"rdm_rma_simple"^
 	"rdm_rma_trigger"^
 	"rdm_tagged_peek"^
-	"scalable_ep"
+	"scalable_ep"^
+	"cq_completion_check"
 rem	"msg_epoll"
 
 set short_tests=^

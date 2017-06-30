@@ -93,6 +93,9 @@
     <ClCompile Include="simple\inj_complete.c">
       <Filter>Source Files\simple</Filter>
     </ClCompile>
+    <ClCompile Include="simple\cq_completion_check.c">
+      <Filter>Source Files\simple</Filter>
+    </ClCompile>
     <ClCompile Include="complex\ft_comm.c">
       <Filter>Source Files\complex</Filter>
     </ClCompile>

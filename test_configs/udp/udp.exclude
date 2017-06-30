@@ -16,4 +16,5 @@ unexpected_msg
 cmatose
 rc_pingpong
 inj_complete
+cq_completion_check
 

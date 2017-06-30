@@ -31,6 +31,7 @@ bin_PROGRAMS = \
 	simple/fi_unexpected_msg \
 	simple/fi_inj_complete \
 	simple/fi_resource_freeing \
+	simple/fi_cq_completion_check \
 	streaming/fi_resmgmt_test \
 	streaming/fi_msg_rma \
 	streaming/fi_rdm_atomic \
@@ -205,6 +206,10 @@ simple_fi_inj_complete_LDADD = libfabtests.la
 simple_fi_resource_freeing_SOURCES = \
 	simple/resource_freeing.c
 simple_fi_resource_freeing_LDADD = libfabtests.la
+
+simple_fi_cq_completion_check_SOURCES = \
+	simple/cq_completion_check.c
+simple_fi_cq_completion_check_LDADD = libfabtests.la
 
 streaming_fi_resmgmt_test_SOURCES = \
 	streaming/resmgmt_test.c

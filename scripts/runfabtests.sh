@@ -120,6 +120,7 @@ simple_tests=(
 	"inj_complete -e msg -SR"
 	"inj_complete -e rdm -SR"
 	"inj_complete -e dgram -SR"
+	"cq_completion_check"
 )
 
 short_tests=(

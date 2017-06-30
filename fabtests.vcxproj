@@ -135,6 +135,7 @@
     <ClCompile Include="simple\rdm_netdir.c" />
     <ClCompile Include="simple\scalable_ep.c" />
     <ClCompile Include="simple\inj_complete.c" />
+    <ClCompile Include="simple\cq_completion_check.c" />
     <ClCompile Include="unit\av_test.c" />
     <ClCompile Include="unit\cntr_test.c" />
     <ClCompile Include="unit\common.c" />
